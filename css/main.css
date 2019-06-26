@@ -1,0 +1,39 @@
+body {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.height {
+  min-height: 100vh;
+}
+.title-underline {
+  width: 150px;
+  height: 8px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.height-80 {
+  min-height: 80vh;
+}
+.about-pic {
+  background: url("../Images/1.jpeg") center/cover no-repeat fixed;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+#filler,
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/24.jpeg") center/cover no-repeat scroll;
+}
+
+@media screen and (min-width: 920px) {
+  .floo {
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    align-self: center;
+    overflow: hidden;
+  }
+}
